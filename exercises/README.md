@@ -3,7 +3,7 @@
 <!-- END TITLE -->
 
 <!-- BEGIN TOC -->
-> 7/3/2020, 3:35:30 PM
+> 7/9/2020, 2:36:40 PM
 
 - [0-hello-world](#0-hello-world)
 - [1-remove-from-array](#1-remove-from-array)
@@ -39,8 +39,7 @@ A very simple function, it greets whatever you tell it to
 
 **Example**  
 ```js
-const greeting = hello('World');
-console.log(greeting); // 'Hello, World!'
+const greeting = hello('World');console.log(greeting); // 'Hello, World!'
 ```
 **Test Report**
 ```
@@ -55,7 +54,7 @@ Failures:
 .    Expected '' to equal 'Hello, toys!'..
 
 2 specs, 2 failures
-Finished in 0.009 seconds
+Finished in 0.074 seconds
 
 ```
 
@@ -77,28 +76,28 @@ Started
 
 Failures:
 1) removeFromArray removes a single value
-.    Expected undefined to equal [ 1, 2, 4 ]..
+.    ReferenceError: removArgs is not defined.
 
 2) removeFromArray removes multiple values
-.    Expected undefined to equal [ 1, 4 ]..
+.    ReferenceError: removArgs is not defined.
 
 3) removeFromArray ignores non present values
-.    Expected undefined to equal [ 1, 2, 3, 4 ]..
+.    ReferenceError: removArgs is not defined.
 
 4) removeFromArray ignores non present values, but still works
-.    Expected undefined to equal [ 1, 3, 4 ]..
+.    ReferenceError: removArgs is not defined.
 
 5) removeFromArray can remove all values
-.    Expected undefined to equal [  ]..
+.    ReferenceError: removArgs is not defined.
 
 6) removeFromArray works with strings
-.    Expected undefined to equal [ 2, 'ho' ]..
+.    ReferenceError: removArgs is not defined.
 
 7) removeFromArray only removes same type
-.    Expected undefined to equal [ 1, 2 ]..
+.    ReferenceError: removArgs is not defined.
 
 7 specs, 7 failures
-Finished in 0.008 seconds
+Finished in 0.052 seconds
 
 ```
 
@@ -141,7 +140,7 @@ Failures:
 .    Expected undefined to equal ''..
 
 7 specs, 7 failures
-Finished in 0.007 seconds
+Finished in 0.049 seconds
 
 ```
 
@@ -175,7 +174,7 @@ Failures:
 .    Expected undefined to equal ''..
 
 4 specs, 4 failures
-Finished in 0.003 seconds
+Finished in 0.017 seconds
 
 ```
 
@@ -215,7 +214,7 @@ Failures:
 .    Expected undefined to equal 'ERROR'..
 
 6 specs, 6 failures
-Finished in 0.005 seconds
+Finished in 0.022 seconds
 
 ```
 
@@ -264,7 +263,7 @@ Failures:
 .    Expected undefined to equal 21..
 
 9 specs, 9 failures
-Finished in 0.008 seconds
+Finished in 0.147 seconds
 
 ```
 
@@ -289,7 +288,7 @@ Failures:
 .    Expected undefined to equal [ 'Book', 'Book2' ]..
 
 1 spec, 1 failure
-Finished in 0.001 seconds
+Finished in 0.01 seconds
 
 ```
 
@@ -329,7 +328,7 @@ Failures:
 .    Expected undefined to equal false..
 
 6 specs, 6 failures
-Finished in 0.005 seconds
+Finished in 0.066 seconds
 
 ```
 
@@ -366,7 +365,7 @@ Failures:
 .    Expected undefined to equal false..
 
 5 specs, 5 failures
-Finished in 0.005 seconds
+Finished in 0.126 seconds
 
 ```
 
@@ -409,7 +408,7 @@ Failures:
 .    Expected undefined to equal 'Ebiil, Tloia!'..
 
 7 specs, 7 failures
-Finished in 0.006 seconds
+Finished in 0.042 seconds
 
 ```
 
@@ -440,7 +439,7 @@ Failures:
 .    TypeError: Cannot read property 'name' of undefined.
 
 3 specs, 3 failures
-Finished in 0.003 seconds
+Finished in 0.126 seconds
 
 ```
 
@@ -489,7 +488,7 @@ Failures:
 .    Expected undefined to equal 'ethay ickquay ownbray oxfay'..
 
 9 specs, 9 failures
-Finished in 0.007 seconds
+Finished in 0.03 seconds
 
 ```
 
@@ -529,7 +528,7 @@ Failures:
 .    Expected undefined to equal 'snake_case_is_awesome'..
 
 6 specs, 6 failures
-Finished in 0.005 seconds
+Finished in 0.188 seconds
 
 ```
 
